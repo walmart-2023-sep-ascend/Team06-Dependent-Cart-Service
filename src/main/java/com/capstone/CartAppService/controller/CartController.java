@@ -34,7 +34,7 @@ public class CartController {
 		try {
 			Cart c = cserv.getCartbyId(cid);
 			//cserv.getProductsinCart(c);
-			resentity = new ResponseEntity<>(c, HttpStatus.FOUND);
+			resentity = new ResponseEntity<>(c, HttpStatus.OK);
 		} catch (CartNotFoundException e) {
 			throw new CartNotFoundException();
 		} catch (Exception e) {

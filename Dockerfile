@@ -1,4 +1,4 @@
 FROM openjdk:17
 EXPOSE 8901
-ADD traget/cart-service-docker.jar cart-service-docker.jar
-ENTRYPOINT ["java","-jar","cart-service-docker.jar"]
+ADD target/cart-service.jar cart-service.jar
+ENTRYPOINT ["java","-jar","cart-service.jar"]

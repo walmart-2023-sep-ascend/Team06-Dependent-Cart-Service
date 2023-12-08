@@ -92,7 +92,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<finalName>cart-service-docker</finalName>
+		<finalName>cart-service</finalName>
 	</build>
 
 </project>
